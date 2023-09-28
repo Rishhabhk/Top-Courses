@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    position: relative;
+    /* box-shadow: 0 0 6px rgb(0, 0, 0); */
+    /* border: 2px solid rgb(14, 141, 14) ; */
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+}
+.card:hover{
+    background-color:rgb(220, 220, 220);
+    cursor: pointer;
+    scale: 1.05;
+}
+.img_div img{
+    border-radius: 7px;
+}
+.unliked{
+    position: absolute;
+    top: 135px;
+    right: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-radius:50%;;
+    height: 40px;
+    transition: 0.2s ease-in-out;
+    color: rgb(255, 153, 173);
+    cursor: pointer;
+}
+.unliked:hover{
+    color: rgb(255, 97, 129);
+}
+.liked{
+    position: absolute;
+    top: 135px;
+    right: 9px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-radius:50%;;
+    height: 40px;
+    transition: 0.2s ease-in-out;
+    color: crimson;
+    background-color: rgb(255, 166, 184);
+}
+.icon{
+    font-size: 25px;
+}
+.title_div{
+    margin-top: 10px;
+}
+.readmore{
+    color: cornflowerblue;
+}
+.readmore:hover{
+    color: rgb(45, 113, 239);
+}
